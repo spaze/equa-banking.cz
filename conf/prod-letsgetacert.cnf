@@ -1,0 +1,6 @@
+CN=equa-banking.cz
+PRIVKEY=/etc/nginx/certs/$CN.privkey.pem
+CERT_DIR=/etc/nginx/certs
+SUBJECT="/C=CZ/ST=Prague/L=Prague/O=equa-banking.cz/emailAddress=$SUBJECT_EMAIL/CN=$CN"
+WEBROOT_DIR=/srv/www/$CN
+DOMAINS="site=equa-banking.cz,www.equa-banking.cz"
