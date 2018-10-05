@@ -1,3 +1,0 @@
-source /srv/www/equa-banking.cz/conf/prod-letsgetacert.cnf
-PRIVKEY=/etc/nginx/certs/$CN.privkey-ecdsa.pem
-EXT=ecdsa
